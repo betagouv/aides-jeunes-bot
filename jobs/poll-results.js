@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const config = {
-  MATTERMOST_POST_URL: process.env.NODE_ENV,
+  MATTERMOST_POST_URL: process.env.MATTERMOST_POST_URL,
 };
 
 module.exports = {
